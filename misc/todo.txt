@@ -1,0 +1,30 @@
+Θα πρεπει να γιενι αλλαγη στην ευαισθησια
+πχ στο magneto mode (πιθανως και στα αλλα) η ευαισθησια ειναι μαξ 10. Αν ενω δουλευει το magneto παω και πατησω το κουμπι κλεισιματος τοτε δημιουργειται αναταραχη στους sensors και λαμβανει πιο ακραιες τιμες. Έτσι γίνεται το alarm ενω δεν εχει κουνηθεί τπτ.Προς το παρον εχω διπλασιασει το ευρος ευαισθησιας στο mainService βαζοντας ενα *2
+Μαλλον το καλυτερο θα ηταν να μπει ενα Lowpass filter. Εχω κανει μια υλοποιησουλα, ειναι σχολιασμενη να την δω
+
+EKANA allagh na lamvanei thn μεση τιμη απο τρια΄δες τιμών στο magneto.υλοποίηση στο preference και στο  σερβις μονο που οταν παει να κοιμηθει η πρωτη απο τις μετρησεις με το που ξυπναει εχει πολυ σφαλμα
+να δω τι παιζει με τα wakelock!
+EIDA TI PAIZEI ME TA WAKELOCK,genika ok to setara pithanws na xreiazetai na paiksw me tis times mGravity kai mGeomagtetiv (na tis kanw null)
+
+Epishs na dw ti tha kanw me to kykliko azimuthio .twra paei apo to 360 sto 0.prepei na ginei mia logikh modulo OK ME AYTO AKOLOYUHSA THN PALIA METHODO
+
+Όταν θα είναι για release να κανω add το εξής:
+
+        debug {
+            minifyEnabled true
+            shrinkResources true
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+
+στο Release ομως ετσι ωστε να το μειωσει το μεγεθος του αρχειου
+
+
+
+Ότι αλλαγη γινετια στο magneto θα πρεπει να γινει και στο Hybrid αλλα και στο preference το αντιστοιχα και στα magneto Και στα hybrid
+
+να συνεχισω τα enums στο MainService (βλεπε UtilityStrings Mode enum) OK me autpo
+
+
+Να βάλω ότι καποια εικονιδια οπως πχ το μοτερι ειναι τπο το flaticon
+
+

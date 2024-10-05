@@ -1,0 +1,40 @@
+Like an owl that stays up at night, Hafi is using the sensors of the device in order to listen for changes. Those changes can be, changes in the inclination of the device, movement of the device, sounds etc. When a change has happened, Hafi will notify you via a call or sms on your current mobile device. Hafi can make your vacant android devices that are sitting in the drawer useful again!
+
+Hafi is using the internal sensors of the mobile device in order to "sense" the environment and inform you in case a change has occurred.
+When the app starts you are introduced with three options regarding the environment that you are going to use. Those three options are:
+
+☉ Vehicle ,☉ Home, ☉ Custom. 
+
+At the option Vehicle, you have the option to use the following modes:
+❋ Shock Mode
+❋ Magneto Mode
+❋ Wifi Mode
+❋ Hybrid Mode
+
+The modes are explained here. At the Shock Mode the accelerometer of the device is used. In case the device is being moved or shaken then it will get triggered and make a call to the number of your selection.
+At the Magneto Mode the magnetometer of the device is used. In case the inclination of the device changes, it will get triggered and make a call to the number of your selection.
+The Wifi Mode serves a different purpose. You can use the Wifi Mode in order to 'connect' the device on a specific router. In case the device does not 'see' anymore the wifi network that you connected it to, it will get triggered and make a call to you number.
+As with the Wifi Mode, the Hybrid Mode is using a combination of the wifi and the magnetometer of the device in order to be more sensitive in changes.
+
+At the option Home, you have the option to use the following modes:
+❋ Shock Mode
+❋ Magneto Mode
+❋ Microphone Mode
+
+As before the Shock Mode and Magneto Mode are working as in the option of the vehicle. The Microphone Mode is listening to the environment. In case there is a noise above a specific level then the device will be triggered and will make a call to the number that you have selected in order to inform you.
+
+At the option Custom, you have the option to use the following modes:
+❋ Shock Mode
+❋ Magneto Mode
+❋ Microphone Mode
+❋ Hybrid Mode
+❋ Wifi Mode
+
+As with the previous cases, the modes here can be used as wanted. The Custom option is a collection of all the different sensor capabilities that the Hafi app has in order to sense the environment.
+
+For all the different modes (for the ones that this apply), there is the ability to set the sensitivity and sampling timing of the sensor on the menu option 'Settings’.
+
+Once you have selected your mode and settings you can proceed to the next menu where you can hit the play button and the tracking will start! (By clicking the stop button the tracking stops). 
+In order for the device to track the environment when the call is the selected medium of communication, it needs to be awake. In this case the app will automatically keep the device awake while running. This can be battery consuming, so the screen will dim to its lowest point in order to save energy. If the medium of communication is via SMS, then the device does not need to be awake. The user can lock the device and it will be triggered like usual. So, the energy consumption is much lower via SMS and the device will last longer without needing a recharge. For decreasing the energy consumption while running the app, it is recommended to choose the SMS as a medium of communication. Also by choosing longer sampling rates from the Setting menu will help in energy saving. The Magneto mode and Wifi mode (and also Hybrid mode) are more efficient modes, energy saving-wise, than Shock mode and Microphone mode.
+
+
